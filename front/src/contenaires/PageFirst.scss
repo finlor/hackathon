@@ -1,0 +1,61 @@
+.PageFirst{
+ 
+}
+
+.image_fond{
+  width: 100%;
+  height: 40vw;
+   padding-top: 30px;
+}
+.lien_vers_page{
+  display: flex;
+  justify-content: space-around;
+  background-color: #3ea770;
+}
+.element_link{
+  margin-top: 50px;
+  margin-bottom: 50px;
+background-color: rgba(255, 255, 255, 0.822);
+padding: 20px;
+border-radius: 25px;
+width: 290px;
+box-shadow: 5px 5px 5px black;
+}
+.actualitées{
+   display: flex;
+  justify-content: space-around;
+  
+}
+.actualitées_item{
+  padding: 50px;
+}
+.il_parle_de_nous{
+  background-color: #3ea770;
+  padding: 100px;
+}
+h5{
+  text-align: center;
+  padding: 15px 0px 5px 0px;
+  font-size: 20px;
+}
+.link{
+  border: 1px solid black;
+  padding: 10px 25px 10px 25px;
+border-radius: 25px;
+  text-align: center;
+  color: black;
+
+}
+.logo{
+  width: 160px;
+  margin-left: 40px;;
+}
+.paraTaille{
+  font-size: 0.9em
+}
+.article_image{
+  width: 400px;
+}
+.avant_actualitées{
+  padding: 20px;
+}
