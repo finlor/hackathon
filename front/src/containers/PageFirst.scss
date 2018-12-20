@@ -1,7 +1,12 @@
 .PageFirst{
- 
+ background-image: './images/Couverture.jpg';
 }
-
+.phrase_accroche{
+  position: absolute;
+  top: 250px;
+  left: 400px;
+  font-size: 5em;
+}
 .image_fond{
   width: 100%;
   height: 40vw;
@@ -11,7 +16,9 @@
   display: flex;
   justify-content: space-around;
   background-color: #3ea770;
+  padding: 75px 0px 75px 0px;
 }
+
 .element_link{
   margin-top: 50px;
   margin-bottom: 50px;
@@ -27,7 +34,7 @@ box-shadow: 5px 5px 5px black;
   
 }
 .actualitées_item{
-  padding: 50px;
+  padding: 100px 0px 100px 0px;
 }
 .il_parle_de_nous{
   background-color: #3ea770;
@@ -38,26 +45,20 @@ h5{
   padding: 15px 0px 5px 0px;
   font-size: 20px;
 }
-.link{
-  border: 1px solid black;
-  padding: 10px 25px 10px 25px;
-border-radius: 25px;
-  text-align: center;
-  color: black;
 
-}
 .logo{
   width: 160px;
   margin-left: 40px;;
 }
 .paraTaille{
-  font-size: 0.9em
+  font-size: 0.9em;
+  margin-bottom: 50px;
 }
 .article_image{
   width: 400px;
 }
 .avant_actualitées, .avant_actualitées{
-  padding: 20px;
+  padding: 100px ;
 }
 .il_parle_display{
   display: flex;
@@ -70,8 +71,36 @@ padding: 25px;
 .image_il_parle{
   width: 100px;
    border-radius: 25px;
-   margin: 0px 25px 0px 0px;
 }
 .h3_marge{
   text-align: center;
 }
+.image_actu{
+  margin-top: 20px;
+  width: 500px;
+  border-radius: 25px;
+}
+.link{
+    border-radius: 8px;
+      padding: 10px 50px 10px 50px;
+       margin: 0px 0px 0px 25%;
+    border: none;
+    background-color: #000724;
+    color: white;
+    align-self: center;
+    font-weight: bold;
+    transition: 0.4s;
+
+  }
+  .link:hover{
+   
+    color: black;
+    transition: 0.4s;
+  }
+  .avant_il_parle_de_nous{
+   padding: 75px;
+    background-color: #3ea770;
+  }
+  .texte_parle{
+    padding-left: 50px;
+  }

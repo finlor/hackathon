@@ -6,9 +6,13 @@
 .navbar{
   position: fixed !important;
   width: 100%;
-  
+  z-index: 1;
 }
 .colorfond{
 background-color: #000724 !important;
 
+}
+.texte_link{
+  text-align: center;
+  color: white;
 }
