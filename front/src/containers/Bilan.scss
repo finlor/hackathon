@@ -25,3 +25,39 @@
   .fiche_salarier{
     padding: 20px 0px 0px 100px;
   }
+  .conseil_liste{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  .valid{
+    margin: 50px 0px 100px 20%;
+  padding: 100px 0px 0px 0px;
+  }
+  .conseil{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.8;
+     position: absolute;
+    box-shadow: 5px 5px 5px black;
+  }
+  .hoverImg{
+    position: relative;
+    margin: 50px;
+    font-size: 1.5em;
+    color: black;
+    Font-Weight: Bold;
+  }
+  .groopCard{
+ padding: 50px;
+
+  }
+  .conseil:hover{
+    box-shadow: 10px 10px 10px black;
+     
+  }
+  .groopCard:hover{
+ text-decoration: none; 
+  }
