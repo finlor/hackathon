@@ -1,7 +1,12 @@
 .PageFirst{
- 
+ background-image: './images/Couverture.jpg';
 }
-
+.phrase_accroche{
+  position: absolute;
+  top: 250px;
+  left: 400px;
+  font-size: 5em;
+}
 .image_fond{
   width: 100%;
   height: 40vw;
