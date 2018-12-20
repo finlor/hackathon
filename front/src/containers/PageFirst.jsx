@@ -8,10 +8,18 @@ class PageFirst extends Component {
     super(props);
     this.state = {}
   }
+
+  componentDidMount() {
+    fetch('http://10.0.2.15')
+      .then(res => res.json())
+      .then(data => console.log('la', data))
+  }
+
   render() {
     return (
       <div className="PageFirst">
         <div className='image'>
+          <p className='phrase_accroche'>"Un belle avenir"</p>
           <img className='image_fond' src='./images/Couverture.jpg' alt='image' />
         </div>
         <div className='lien_vers_page'>
