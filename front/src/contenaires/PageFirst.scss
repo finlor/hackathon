@@ -31,7 +31,7 @@ box-shadow: 5px 5px 5px black;
 }
 .il_parle_de_nous{
   background-color: #3ea770;
-  padding: 100px;
+  padding: 25px;
 }
 h5{
   text-align: center;
@@ -56,6 +56,22 @@ border-radius: 25px;
 .article_image{
   width: 400px;
 }
-.avant_actualitées{
+.avant_actualitées, .avant_actualitées{
   padding: 20px;
+}
+.il_parle_display{
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.774);
+  border-radius: 25px;
+  width: 500px;
+padding: 25px;
+  margin: 50px auto 50px auto;
+}
+.image_il_parle{
+  width: 100px;
+   border-radius: 25px;
+   margin: 0px 25px 0px 0px;
+}
+.h3_marge{
+  text-align: center;
 }
