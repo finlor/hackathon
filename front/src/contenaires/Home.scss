@@ -1,0 +1,43 @@
+@import '../index.scss';
+
+.home {
+  background-image: url("https://media.giphy.com/media/SHUu78CIqq4FO/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  .titretransparent {
+    font-family: $font-general;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+
+    .intermediaire {
+      padding: 300px;
+
+
+      h1 {
+        text-align: center;
+        font-size: 100px;
+       
+
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 50px;
+      
+
+        sup {
+          font-size: 30px;
+        }
+      }
+
+    }
+  }
+}
