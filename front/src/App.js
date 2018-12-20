@@ -5,9 +5,10 @@ import NavBar from './containers/NavBar';
 import PageFirst from './containers/PageFirst';
 import Diagnostic from './containers/Diagnostic';
 import Bilan from './containers/Bilan';
-
 import Home from "./containers/Home";
 import Footer from './containers/Footer';
+import Advices from './containers/Advices'
+
 class App extends Component {
   render() {
     return (
@@ -17,8 +18,8 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/pagefirst" component={PageFirst} />
           <Route path="/marketplace" component={PageFirst} />
+          <Route path="/conseil" component={Advices} />
           <Route path="/Diagnostic" component={Diagnostic} />
-          <Route path="/conseil" component={PageFirst} />
           <Route path="/bilan" component={Bilan} />
         </Switch>
         <Footer />
