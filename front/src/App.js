@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
 import { Route, Switch } from "react-router-dom";
-
 import NavBar from './containers/NavBar';
 import PageFirst from './contenaires/PageFirst';
 

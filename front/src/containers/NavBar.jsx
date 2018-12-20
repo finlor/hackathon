@@ -2,6 +2,7 @@ import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import './NavBar.scss'
 
+
 export default class Example extends React.Component {
   constructor(props) {
     super(props);
@@ -20,6 +21,7 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
+
         <Navbar className="navbar navbar-dark colorfond">
           <NavbarBrand className='' href="/" className="mr-auto"><img src="../images/B2GreenLogosmall.png" alt="B2GREEN" width="20%" /></NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2 " />

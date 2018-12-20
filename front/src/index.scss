@@ -1,11 +1,10 @@
+$font-general: 'Staatliches', 'cursive';
+
+;
+
 body {
-  margin: 0;
-  padding: 0;
-  width: 100%;  
-  font-family: "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+ 
+  width: 100%; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
