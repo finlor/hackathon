@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.scss';
 import { Route, Switch } from "react-router-dom";
-import NavBar from './contenaires/NavBar';
+import NavBar from './containers/NavBar';
 
-import Home from "./contenaires/Home";
+import Home from "./containers/Home";
 
 class App extends Component {
   render() {
