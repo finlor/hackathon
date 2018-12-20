@@ -17,6 +17,7 @@
   justify-content: space-around;
   background-color: #3ea770;
 }
+
 .element_link{
   margin-top: 50px;
   margin-bottom: 50px;
@@ -43,20 +44,14 @@ h5{
   padding: 15px 0px 5px 0px;
   font-size: 20px;
 }
-.link{
-  border: 1px solid black;
-  padding: 10px 25px 10px 25px;
-border-radius: 25px;
-  text-align: center;
-  color: black;
 
-}
 .logo{
   width: 160px;
   margin-left: 40px;;
 }
 .paraTaille{
-  font-size: 0.9em
+  font-size: 0.9em;
+  margin-bottom: 50px;
 }
 .article_image{
   width: 400px;
@@ -80,3 +75,25 @@ padding: 25px;
 .h3_marge{
   text-align: center;
 }
+.image_actu{
+  margin-top: 20px;
+  width: 500px;
+  border-radius: 25px;
+}
+.link{
+    border-radius: 8px;
+      padding: 10px 50px 10px 50px;
+       margin: 0px 0px 0px 25%;
+    border: none;
+    background-color: #000724;
+    color: white;
+    align-self: center;
+    font-weight: bold;
+    transition: 0.4s;
+
+  }
+  .link:hover{
+    background-color: #3ea770;
+    color: black;
+    transition: 0.4s;
+  }

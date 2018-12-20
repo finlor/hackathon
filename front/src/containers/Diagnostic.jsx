@@ -138,7 +138,7 @@ class Diagnostic extends Component {
                 </ul>
               </Col>
             </Row>
-            <Row>
+            <Row className='endPage'>
               <Col xs="6" className="text_align_center">
                 <NavLink to="/">
                   <button className="button_submit" type="button">

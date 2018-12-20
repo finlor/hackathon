@@ -30,18 +30,22 @@
   }
   .button_submit{
     border-radius: 8px;
-      padding: 10px 10px 10px 10px;
-       margin: 0px 0px 10px 0px;
+      padding: 10px 50px 10px 50px;
+       margin: 0px 0px 0px 25%;
     border: none;
-    background-color: #3ea770;
+    background-color: #000724;
     color: white;
     align-self: center;
     font-weight: bold;
-    transition: 0.4s;  
+    transition: 0.4s;
+
   }
   .button_submit:hover{
     background-color: #3ea770;
     color: black;
     transition: 0.4s;
+  }
+  .endPage{
+    margin-bottom: 35px;
   }
 }

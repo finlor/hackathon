@@ -10,7 +10,7 @@ class PageFirst extends Component {
   }
 
   componentDidMount() {
-    fetch('http://10.0.2.15')
+    fetch('http://192.168.1.94:8000/category/1')
       .then(res => res.json())
       .then(data => console.log('la', data))
   }
@@ -60,13 +60,19 @@ class PageFirst extends Component {
           <h2><strong>Article de pressse</strong></h2>
           <div className='actualitées'>
             <div className='actualitées_item'>
-              <h2>titre</h2>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis laudantium iste commodi officia tenetur quae maiores nesciunt provident. Dolores, nemo libero. Minima vitae odit repellat fugit corrupti fuga perferendis necessitatibus!
-          </div>
+              <h4>La société s’empare de la sobriété numérique</h4>
+              <a href='https://www.greenit.fr/2018/10/02/societe-sempare-de-sobriete-numerique/
+'>
+                <img className='image_actu' src='./images/Capture d’écran 2018-12-20 à 16.58.25.png' alt='image' />
+              </a>
+              </div>
             <div className='actualitées_item'>
-              <h2>titre</h2>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis laudantium iste commodi officia tenetur quae maiores nesciunt provident. Dolores, nemo libero. Minima vitae odit repellat fugit corrupti fuga perferendis necessitatibus!
-          </div>
+              <h4>Un numérique de plus en plus vorace en énergie</h4>
+              <a href='https://theshiftproject.org/article/pour-une-sobriete-numerique-rapport-shift/
+
+'>
+                <img className='image_actu' src='./images/Capture d’écran 2018-12-20 à 16.57.17.png' alt='image' />
+              </a> </div>
           </div>
         </div>
         <div>
