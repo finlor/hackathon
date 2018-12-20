@@ -6,8 +6,12 @@ import { Link } from "react-router-dom";
 class PageFirst extends Component {
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {
+      time: 86400 * 353 * 1017884
+    };
   }
+  
+
   render() {
     return (
       <div className="PageFirst">
