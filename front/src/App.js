@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import './App.scss';
 import { Route, Switch } from "react-router-dom";
 import NavBar from './containers/NavBar';
-import PageFirst from './contenaires/PageFirst';
+import PageFirst from './containers/PageFirst';
 
 import Home from "./containers/Home";
-import Footer from './contenaires/Footer';
+import Footer from './containers/Footer';
 class App extends Component {
   render() {
     return (
