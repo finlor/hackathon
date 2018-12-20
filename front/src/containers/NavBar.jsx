@@ -27,17 +27,14 @@ export default class Example extends React.Component {
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2 " />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
-              <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+              <NavItem className='texte_link'>
+                <NavLink href="/components/">Diagnostic</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+              <NavItem className='texte_link'>
+                <NavLink href="/components/">Conseils</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="/components/">Components</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavItem className='texte_link'>
+                <NavLink href="/components/"> Market place</NavLink>
               </NavItem>
             </Nav>
           </Collapse>
