@@ -1,74 +1,74 @@
-.AddLayer{
-   display: flex;
+.AddLayer {
+  display: flex;
   padding-top: 120px;
-      //background-image: url('/images/iceland-1979445_1280.jpg');
-    background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: 100%;
+  //background-image: url('/images/iceland-1979445_1280.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
   background-image: url("https://asmmag.com/wp-content/uploads/2016/03/sustainable_cities.jpg");
-  .text_title{
+  .text_title {
     margin: 0px auto 5px auto;
-     font-family: 'Caviar Dreams' !important;
-     font-size: 3em !important;
+    font-family: 'Caviar Dreams' !important;
+    font-size: 3em !important;
   }
-  .content_add_layer{
+  .content_add_layer {
     margin: 25px auto 0px auto;
   }
-  .liste_input{
+  .liste_input {
     list-style-type: none;
   }
-  .item_input{
-     margin: 5px 0px 10px 0px;
+  .item_input {
+    margin: 5px 0px 10px 0px;
   }
-  .label_chekbox{
+  .label_chekbox {
     display: flex;
     justify-content: space-around;
     padding: 45px 10px 0px 10px;
   }
-  .text_area_input{
+  .text_area_input {
     border-radius: 10px;
     border: 1px solid #a6a6a6;
     background-color: #fafafa;
     width: 235%;
   }
-  .text_align_center{
+  .text_align_center {
     margin: 25px 0px 0px 0px;
   }
-  .button_submit{
+  .button_submit {
     border-radius: 8px;
-      padding: 10px 50px 10px 50px;
- margin-left: 40%;
+    padding: 10px 50px 10px 50px;
+    margin-left: 40%;
     border: none;
     background-color: #000724;
     color: white;
     align-self: center;
     font-weight: bold;
     transition: 0.4s;
- font-family: 'Caviar Dreams' !important;
+    font-family: 'Caviar Dreams' !important;
   }
-  .button_submit:hover{
+  .button_submit:hover {
     background-color: white;
     color: black;
     transition: 0.4s;
   }
-  .endPage{
+  .endPage {
     margin-bottom: 35px;
   }
-  .content_add_layer{
+  .content_add_layer {
     background-image: linear-gradient(141deg, #a8bec5 0%, white 51%, #dddfb6 95%);
-   border-radius: 25px;
-   padding-top: 70px;
+    border-radius: 25px;
+    padding-top: 70px;
     margin-top: 5%;
-  margin-bottom: 5%;
+    margin-bottom: 5%;
   }
-  p{
+  p {
     font-size: 1.2em;
     font-family: 'Calibri' !important;
   }
-  select, option, input{
-    font-size: 1.2em ;
+  select, option, input {
+    font-size: 1.2em;
   }
-  form{
+  form {
     padding: 10px;
     margin: 50px 0px 25px 0px;
   }

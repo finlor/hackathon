@@ -18,7 +18,7 @@ class Bilan extends Component {
                         <div className='fiche_salarier'>
                             <p>Nom : EDF</p>
                             <p>Secteur d'activité : Production énergétique</p>
-                            <p>Nombre de saliriés : 154 845</p>
+                            <p>Nombre de salariés : 154 845</p>
                             <p>Renouvelement équipement : Si nécessaire </p>
                             <p>Bilan carbone : 42 ppm par salarié</p>
                         </div>
