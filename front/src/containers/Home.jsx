@@ -34,7 +34,7 @@ class Home extends Component {
             <h3>{this.state.time} / ppm</h3>
             <br />
             <br />
-            <h2>DEPUIS VOTRE CONNEXION SUR LE SITE</h2>
+            <h2>Depuis que vous êtes connecté</h2>
             <h3>{this.state.fromnow} / ppm</h3>
             <div className="agirlink">
               <Link className="linkcolor" to='/pagefirst'>Agir</Link>
