@@ -115,10 +115,10 @@ class Diagnostic extends Component {
                   <li className="item_input">
                     <p>Combien avez-vous de téléphones portables d’entreprise ? </p>
                     <select name="categories" id="categories" onChange={this.inputChange}>
-                      <option>0 ou 1 ans</option>
-                      <option>20 à 50 ans</option>
-                      <option>60 à 150 ans</option>
-                      <option>Plus de 160 ans</option>
+                      <option>0 ou 10</option>
+                      <option>11 à 50</option>
+                      <option>51 à 250</option>
+                      <option>Plus de 251</option>
                     </select>
                   </li>
                 </ul>
