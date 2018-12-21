@@ -1,0 +1,29 @@
+.zob {
+  width: 480px;
+  height: 240px;
+}
+.anounceRow {
+  padding: 50px;
+  border: solid;
+  margin: 30px;
+}
+.textAnounce {
+  font-size: xx-large;
+  padding-top: 30px;
+}
+.textPrice {
+  text-align: center;
+  font-size: x-large;
+}
+.buttonVendor {
+  background-color: #000724;
+  color: white;
+  position: absolute;
+  left: 40%;
+}
+.buttonVendor:hover {
+  background-color: #3ea770;
+}
+.zob {
+  position: relative;
+}
