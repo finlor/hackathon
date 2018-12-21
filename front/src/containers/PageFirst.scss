@@ -1,178 +1,177 @@
 @import '../index.scss';
 
-.PageFirst{
+.PageFirst {
 
-
-.image{
-margin: auto;
-padding: 250px 20% 0px 20%;
-  font-size: 4em;
-     font-family: $font-general !important;
-     height: 625px;
-     width: 100%;
-    background-image: url('/images/iceland-1979445_1280.jpg');
+  .image {
+    margin: auto;
+    padding: 400px 20% 0px 20%;
+    font-size: 4em;
+    font-family: $font-general !important;
+    height: 975px;
+    width: 100%;
+    background-image: url('https://asmmag.com/wp-content/uploads/2016/03/sustainable_cities.jpg');
     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: 100%;
-}
-.phrase_accroche{
-  text-align: center;
-  padding: 25px;
- background-color: rgba(255, 255, 255, 0.822);
-  border-radius: 25px;
-    font-family: 'Bebas Neue';
-     font-style: italic;
-}
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  .phrase_accroche {
+    //font-family: 'Bowlby One SC', 'cursive' !important;
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.822);
+    border-radius: 25px;
+    font-style: italic;
+  }
 
-.image_fond{
-  width: 100%;
-  height: 25vw;
-   padding-top: 30px;
-}
-.lien_vers_page{
-  display: flex;
-  justify-content: space-around;
-  
-}
-.element_link_avant{
-background-color: #3ea770;
-  padding: 75px 0px 75px 0px;
-}
+  .image_fond {
+    width: 100%;
+    height: 25vw;
+    padding-top: 30px;
+  }
+  .lien_vers_page {
+    display: flex;
+    justify-content: space-around;
 
-.element_link{
-  margin-top: 50px;
-  margin-bottom: 50px;
-background-color: rgba(255, 255, 255, 0.822);
-padding: 20px;
-border-radius: 25px;
-width: 290px;
-box-shadow: 5px 5px 5px black;
-}
-.actualitées{
-   display: flex;
-  justify-content: space-around;
-  
-}
-.actualitées_item{
-  padding: 100px 30px 100px 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
- 
-}
-.il_parle_de_nous{
-  background-color: #3ea770;
-  display: flex;
-  justify-content: space-around;
-}
-h5{
-  text-align: center;
-  padding: 15px 0px 5px 0px;
-  font-size: 1.7em !important;
-   font-family: 'Caviar Dreams';
-}
+  }
+  .element_link_avant {
+    background-image: linear-gradient(141deg, #a8bec5 0%, white 51%, #dddfb6 95%);
+    padding: 75px 0px 75px 0px;
+  }
 
-.logo{
-  width: 160px;
-  margin: 0px 50px 0px 50px;
-}
-.paraTaille{
-  font-size: 0.9em;
-  margin-bottom: 50px;
-  text-align: justify;
-  font-family: 'Calibri';
-}
-.article_image{
-  width: 400px;
-}
-.avant_actualitées{
-  padding: 100px ;
- background-image: url('/images/scrap-1258483_1280.jpg');
-     background-attachment: fixed;
-     background-repeat: no-repeat;
-     background-size: 100%;
-}
-.il_parle_display{
-  background-color: rgba(255, 255, 255, 0.822);
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  border-radius: 25px;
-  width: 400px;
-  height: 625px;
-padding: 30px;
-  margin: 50px auto 50px auto;
-  box-shadow: 5px 5px 5px black;
-}
-.image_il_parle{
-  width: 200px;
-   border-radius: 25px;
-   margin: 0px 75px 25px 75px;
-   text-align: justify;
-   height: 200px;
-}
-.h3_marge{
-  text-align: center;
+  .element_link {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.822);
+    padding: 20px;
+    border-radius: 25px;
+    width: 290px;
+    box-shadow: 5px 5px 5px black;
+  }
+  .actualitées {
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .actualitées_item {
+    padding: 100px 30px 100px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  .il_parle_de_nous {
+    background-image: linear-gradient(141deg, #a8bec5 0%, white 51%, #dddfb6 95%);
+    display: flex;
+    justify-content: space-around;
+  }
+  h5 {
+    text-align: center;
+    padding: 15px 0px 5px 0px;
+    font-size: 1.7em !important;
+    font-family: 'Caviar Dreams';
+  }
+
+  .logo {
+    width: 160px;
+    margin: 0px 50px 0px 50px;
+  }
+  .paraTaille {
+    font-size: 0.9em;
+    margin-bottom: 50px;
+    text-align: justify;
+    font-family: 'Calibri';
+  }
+  .article_image {
+    width: 400px;
+  }
+  .avant_actualitées {
+    padding: 100px;
+    background-image: url('/images/scrap-1258483_1280.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .il_parle_display {
+    background-color: rgba(255, 255, 255, 0.822);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 400px;
+    height: 625px;
+    padding: 30px;
+    margin: 50px auto 50px auto;
+    box-shadow: 5px 5px 5px black;
+  }
+  .image_il_parle {
+    width: 200px;
+    border-radius: 25px;
+    margin: 0px 75px 25px 75px;
+    text-align: justify;
+    height: 200px;
+  }
+  .h3_marge {
+    text-align: center;
     font-family: 'Calibri' !important;
-}
-.image_actu{
-  margin: 20px;
-  margin-left: 10%;
-  width: 500px;
-  border-radius: 25px;
-}
-.link{
+  }
+  .image_actu {
+    margin: 20px;
+    margin-left: 10%;
+    width: 500px;
+    border-radius: 25px;
+  }
+  .link {
     border-radius: 8px;
-      padding: 10px 50px 10px 50px;
-       margin: 0px 0px 0px 25%;
+    padding: 10px 50px 10px 50px;
+    margin: 0px 0px 0px 25%;
     border: none;
     background-color: #000724;
     color: white;
     align-self: center;
     font-weight: bold;
     transition: 0.4s;
- font-family: 'Caviar Dreams' !important;
+    font-family: 'Caviar Dreams' !important;
   }
-  .link:hover{
+  .link:hover {
     background-color: #3ea770;
     color: black;
     transition: 0.4s;
   }
-  .avant_il_parle_de_nous{
-   padding: 75px;
-    background-color: #3ea770;
+  .avant_il_parle_de_nous {
+    padding: 75px;
+    background-image: linear-gradient(141deg, #a8bec5 0%, white 51%, #dddfb6 95%);
   }
-  .texte_parle{
+  .texte_parle {
     padding-left: 50px;
   }
-  .logo_share{
+  .logo_share {
     margin: 20px 20px 0px 20px;
     width: 40px;
   }
- 
-  .fond_fond{
+
+  .fond_fond {
     background-color: rgba(255, 255, 255, 0.801);
     border-radius: 25px;
     padding: 50px;
   }
-  .texte_parle_de_nous{
+  .texte_parle_de_nous {
     margin: 50px 25px 0px 25px;
   }
-  .titre_section{
+  .titre_section {
     text-align: center;
     font-size: 3em !important;
-     font-family: 'Caviar Dreams' !important;
+    font-family: 'Caviar Dreams' !important;
   }
-  h4{
-        font-family: 'Calibri' !important;
+  h4 {
+    font-family: 'Calibri' !important;
   }
-  p{
-        font-family: 'Calibri' !important;
+  p {
+    font-family: 'Calibri' !important;
   }
-  .titre_item_actu{
+  .titre_item_actu {
     text-align: center;
   }
-  .actu_link_reso{
+  .actu_link_reso {
     margin-left: 35%;
   }
-  }
+}

@@ -10,7 +10,9 @@ import Footer from './containers/Footer';
 import Advices from './containers/Advices';
 import AdviceAchat from './containers/AdviceAchat';
 import MarketPlace from './containers/MarketPlace';
+import AdviceObsolet from './containers/AdviceObsolet';
 import Newszoom from './containers/Newszoom';
+
 
 class App extends Component {
   render() {
@@ -26,6 +28,8 @@ class App extends Component {
           <Route onUpdate={window.scrollTo(0, 0)} path="/bilan" component={Bilan} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/achat" component={AdviceAchat} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/newszoom" component={Newszoom} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/article" component={AdviceObsolet} />
+
         </Switch>
         <Footer />
       </div>

@@ -1,0 +1,38 @@
+.adviceobsolet {
+  padding-top: 100px;
+  background-image: url("https://asmmag.com/wp-content/uploads/2016/03/sustainable_cities.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+
+  .articletotal {
+    margin-top: 10%;
+    padding-bottom: 10%;
+
+    .article {
+      padding: 50px;
+      background-image: linear-gradient(141deg, #a8bec5 0%, white 51%, #dddfb6 95%);
+      border-bottom-right-radius: 25px;
+      border-top-right-radius: 25px;
+    }
+
+    .titre {
+      font-family: 'Caviar Dreams' !important;
+      font-size: 3.5em;
+    }
+
+    .paragraphe {
+      font-family: 'Calibri' !important;
+      font-size: 1.6em;
+      margin-top: 20px;
+    }
+
+    .image {
+      background-image: url('/images/leave.jpg');
+      background-size: cover;
+      border-bottom-left-radius: 25px;
+      border-top-left-radius: 25px;
+
+    }
+  }
+}
