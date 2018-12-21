@@ -68,6 +68,17 @@ class PageFirst extends Component {
 '>
                 <img className='image_actu' src='./images/Capture d’écran 2018-12-20 à 16.58.25.png' alt='image' />
               </a>
+              <div >
+                <a  href="https://www.facebook.com/">
+                  <img className='logo_share' src="http://jpfventures.com/wp-content/uploads/2015/03/facebook-5-256.png" alt="Facebook" width="6%" />
+                </a>
+                <a  href="https://twitter.com">
+                  <img className='logo_share' src="http://www.ago-formation.fr/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/social/img/twitter.svg" alt="Twitter" width="5%" />
+                </a>
+                <a  href="https://www.linkedin.com">
+                  <img className='logo_share' src="http://www.ago-formation.fr/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/social/img/linkedin.svg" alt="Linkedin" width="5%" />
+                </a>
+              </div>
               </div>
             <div className='actualitées_item'>
               <h4>Un numérique de plus en plus vorace en énergie</h4>
@@ -75,7 +86,19 @@ class PageFirst extends Component {
 
 '>
                 <img className='image_actu' src='./images/Capture d’écran 2018-12-20 à 16.57.17.png' alt='image' />
-              </a> </div>
+              </a> 
+              <div >
+                <a href="https://www.facebook.com/">
+                  <img className='logo_share' src="http://jpfventures.com/wp-content/uploads/2015/03/facebook-5-256.png" alt="Facebook" width="6%" />
+                </a>
+                <a href="https://twitter.com">
+                  <img className='logo_share' src="http://www.ago-formation.fr/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/social/img/twitter.svg" alt="Twitter" width="5%" />
+                </a>
+                <a href="https://www.linkedin.com">
+                  <img className='logo_share' src="http://www.ago-formation.fr/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/social/img/linkedin.svg" alt="Linkedin" width="5%" />
+                </a>
+              </div>
+              </div>
           </div>
         </div>
         <div className='avant_il_parle_de_nous'>

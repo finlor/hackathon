@@ -1,5 +1,15 @@
+@import '../index.scss';
+
 .Bilan{
-    padding-top: 100px;
+    padding: 150px 50px 50px 50px;
+    
+}
+.entourage{
+background-color: #a8dffa;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+ padding: 50px;
+ border-radius: 25px;
 }
 .title{
   padding: 20px 0px 0px 50px;
@@ -24,6 +34,8 @@
   }
   .fiche_salarier{
     padding: 20px 0px 0px 100px;
+    font-family: 'roboto' !important;
+    font-size: 1.3em;
   }
   .conseil_liste{
     display: flex;
@@ -48,7 +60,8 @@
     margin: 50px;
     font-size: 1.5em;
     color: black;
-    Font-Weight: Bold;
+    font-Weight: Bold;
+     font-family: $font-general !important;
   }
   .groopCard{
  padding: 50px;
@@ -60,4 +73,20 @@
   }
   .groopCard:hover{
  text-decoration: none; 
+  }
+  .entreprise{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 125px;
+   
+  }
+  .imageBilan{
+ border-radius: 25px;
+  }
+  h1, h2, h3{
+    font-family: $font-general !important;
+  }
+  .title_second{
+text-align: center;
+margin-top: 50px;
   }

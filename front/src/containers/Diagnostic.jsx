@@ -140,7 +140,7 @@ class Diagnostic extends Component {
             </Row>
             <Row className='endPage'>
               <Col xs="6" className="text_align_center">
-                <NavLink to="/">
+                <NavLink to="/pagefirst">
                   <button className="button_submit" type="button">
                     return
                   </button>

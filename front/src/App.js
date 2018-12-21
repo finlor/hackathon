@@ -16,11 +16,11 @@ class App extends Component {
         <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/pagefirst" component={PageFirst} />
-          <Route path="/marketplace" component={PageFirst} />
-          <Route path="/conseil" component={Advices} />
-          <Route path="/Diagnostic" component={Diagnostic} />
-          <Route path="/bilan" component={Bilan} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/pagefirst" component={PageFirst} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/marketplace" component={PageFirst} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/conseil" component={Advices} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/Diagnostic" component={Diagnostic} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/bilan" component={Bilan} />
         </Switch>
         <Footer />
       </div>
