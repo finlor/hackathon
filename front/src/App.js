@@ -25,7 +25,7 @@ class App extends Component {
           <Route onUpdate={window.scrollTo(0, 0)} path="/Diagnostic" component={Diagnostic} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/bilan" component={Bilan} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/achat" component={AdviceAchat} />
-          <Route onUpdate={window.scrollTo(0, 0)} path="/newzoom" component={Newszoom} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/newszoom" component={Newszoom} />
         </Switch>
         <Footer />
       </div>
