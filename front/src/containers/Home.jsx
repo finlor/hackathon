@@ -28,7 +28,7 @@ class Home extends Component {
             <h2>DEPUIS LE 1<sup>ER</sup> JANVIER 2018 </h2>
             <h2>{this.state.time} kg</h2>
             <div className="agirlink">
-              <Link className="linkcolor" to='/pagefirst'>Comment Agir...</Link>
+              <Link className="linkcolor" to='/pagefirst'>Agir...</Link>
             </div>
           </div>
         </div>
