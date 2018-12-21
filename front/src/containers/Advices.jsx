@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 class Advices extends React.Component {
   render() {
     return (
+        <div className={"plop"}>
       <Container className="advices">
         <Row>
           <Col><h1>Nos Conseils</h1></Col>
@@ -61,6 +62,7 @@ class Advices extends React.Component {
           </Row>
         </div>
       </Container>
+        </div>
     );
   }
 }
