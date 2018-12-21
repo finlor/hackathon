@@ -22,10 +22,13 @@ class PageFirst extends Component {
     return (
       <div className="PageFirst">
         <div className='image'>
-          <p className='phrase_accroche'>"Un bel avenir"</p>
-          <img className='image_fond' src='./images/Couverture.jpg' alt='image' />
+          <p className='phrase_accroche'>"Un bel avenir pour demain"</p>
+          
         </div>
+        <div className='element_link_avant'>
+          <h2>Article de presse</h2>
         <div className='lien_vers_page'>
+         
           <div className='element_link'>
             <img className='logo' src='./images/writing.png' alt='image' />
             <h5>Diagnostic</h5>
@@ -58,9 +61,11 @@ class PageFirst extends Component {
               Go
             </Link>
           </div>
+          </div>
         </div>
         <div className='avant_actualitées'>
-          <h2><strong>Article de pressse</strong></h2>
+        <div className='fond_fond'>
+          <h2>Article de presse</h2>
           <div className='actualitées'>
             <div className='actualitées_item'>
               <h4>La société s’empare de la sobriété numérique</h4>
@@ -99,26 +104,32 @@ class PageFirst extends Component {
                 </a>
               </div>
               </div>
+            </div>
           </div>
         </div>
         <div className='avant_il_parle_de_nous'>
+          <h2>Ils parlent de nous ...</h2>
           <div className='il_parle_de_nous'>
-            <h2><strong>Ils parlent de nous ...</strong></h2>
+            
             <div>
-              <h3 className='h3_marge'>Les sites web spécialisés dans le futur numérique</h3>
+              
               <div className='il_parle_display'>
+                
                 <img className='image_il_parle' src='./images/Logo-Journal-des-Entreprises-600-400.jpg' alt='image' />
-                <div className='texte_parle de nous'>
+                <h3 className='h3_marge'>Les sites web spécialisés dans le futur numérique</h3>
+                <div className='texte_parle_de_nous'>
                   <p>"E-commerce  : solution open source vs solutions de propriétaires"</p>
                   <p> Article dans "journal du net" - Juin 2018</p>
                 </div>
               </div>
             </div>
             <div>
-              <h3 className='h3_marge'>BtoGreen : Diminuer son bilan d’émission de CO2 avec un diagnostic complet et des conseils personnalisés</h3>
+              
               <div className='il_parle_display'>
+                
                 <img className='image_il_parle' src='./images/JDN.png' alt='image' />
-                <div className='texte_parle de nous'>
+                <h3 className='h3_marge'>BtoGreen : Diminuer son bilan d’émission de CO2 avec un diagnostic complet et des conseils personnalisés</h3>
+                <div className='texte_parle_de_nous'>
                   <p>"J'ai créé un parcours du e-commerçant"</p>
                   <p> Article dans "journal des entreprises" - Juin 2018</p>
                 </div>
