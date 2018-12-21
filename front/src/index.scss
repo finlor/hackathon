@@ -1,6 +1,26 @@
 $font-general: 'Staatliches', 'cursive';
 
-;
+@font-face {
+  font-family: 'Bebas Neue';
+  src: ('./fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: ('./fonts/Calibri-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Caviar Dreams';
+  src: ('./fonts/CaviarDreams-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 
 body {
  

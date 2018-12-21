@@ -7,7 +7,8 @@ import Diagnostic from './containers/Diagnostic';
 import Bilan from './containers/Bilan';
 import Home from "./containers/Home";
 import Footer from './containers/Footer';
-import Advices from './containers/Advices'
+import Advices from './containers/Advices';
+import AdviceAchat from './containers/AdviceAchat';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route path="/pagefirst" component={PageFirst} />
           <Route path="/marketplace" component={PageFirst} />
           <Route path="/conseil" component={Advices} />
+          <Route path="/achat" component={AdviceAchat} />
           <Route path="/Diagnostic" component={Diagnostic} />
           <Route path="/bilan" component={Bilan} />
         </Switch>
