@@ -69,19 +69,19 @@ class Diagnostic extends Component {
                   <li className="item_input">
                     <p>Quelle est la taille de votre entreprise ?</p>
                     <select name="categories" id="categories" onChange={this.inputChange}>
-                      <option>0 à 3 salariés</option>
-                      <option>4 à 10 salariés</option>
-                      <option>11 à 30 salariés </option>
-                      <option>Plus de 30 salariés</option>
+                      <option>0 à 15 salariés</option>
+                      <option>15 à 50 salariés</option>
+                      <option>51 à 500 salariés </option>
+                      <option>Plus de 500 salariés</option>
                     </select>
                   </li>
                   <li className="item_input">
                     <p>A quelle fréquence renouvelez-vous votre parc automobile ?</p>
                     <select name="categories" id="categories" onChange={this.inputChange}>
-                      <option>0 ou 1 ans</option>
+                      <option>Tous les 1 an</option>
                       <option>2 à 5 ans</option>
-                      <option>6 à 15 ans</option>
-                      <option>Plus de 16 ans</option>
+                      <option>6 à 10 ans</option>
+                      <option>Plus de 10 ans</option>
                     </select>
                   </li>
                 </ul>
@@ -116,9 +116,9 @@ class Diagnostic extends Component {
                     <p>Combien avez-vous de téléphones portables d’entreprise ? </p>
                     <select name="categories" id="categories" onChange={this.inputChange}>
                       <option>0 ou 1 ans</option>
-                      <option>2 à 5 ans</option>
-                      <option>6 à 15 ans</option>
-                      <option>Plus de 16 ans</option>
+                      <option>20 à 50 ans</option>
+                      <option>60 à 150 ans</option>
+                      <option>Plus de 160 ans</option>
                     </select>
                   </li>
                 </ul>

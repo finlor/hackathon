@@ -19,7 +19,7 @@ class Bilan extends Component {
             <p>Secteur d'activité : Production énergétique</p>
               <p>Nombre de salirié : 154 845</p>
               <p>Renouvelement équipement : Si nécessaire </p>
-            <p>Bilan carbone : 42t CO2 par salarié</p>
+            <p>Bilan carbone : 42 ppm par salarié</p>
           </div>
           <div>
               <img className='imageBilan' src='./images/index.jpeg' alt='image'/>
