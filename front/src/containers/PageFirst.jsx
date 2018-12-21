@@ -26,7 +26,7 @@ class PageFirst extends Component {
           
         </div>
         <div className='element_link_avant'>
-          <h2>Nos outils</h2>
+          <h2 className='titre_section' >Nos outils</h2>
         <div className='lien_vers_page'>
          
           <div className='element_link'>
@@ -65,7 +65,7 @@ class PageFirst extends Component {
         </div>
         <div className='avant_actualitées'>
         <div className='fond_fond'>
-          <h2>Article de presse</h2>
+          <h2 className='titre_section' >Article de presse</h2>
           <div className='actualitées'>
             <div className='actualitées_item'>
               <h4 className='titre_item_actu'>La société s’empare de la sobriété numérique</h4>
@@ -108,13 +108,11 @@ class PageFirst extends Component {
           </div>
         </div>
         <div className='avant_il_parle_de_nous'>
-          <h2>Ils parlent de nous ...</h2>
+          <h2 className='titre_section' >Ils parlent de nous ...</h2>
           <div className='il_parle_de_nous'>
             
             <div>
-              
               <div className='il_parle_display'>
-                
                 <img className='image_il_parle' src='./images/Logo-Journal-des-Entreprises-600-400.jpg' alt='image' />
                 <h3 className='h3_marge'>Les sites web spécialisés dans le futur numérique</h3>
                 <div className='texte_parle_de_nous'>
@@ -124,9 +122,7 @@ class PageFirst extends Component {
               </div>
             </div>
             <div>
-              
               <div className='il_parle_display'>
-                
                 <img className='image_il_parle' src='./images/JDN.png' alt='image' />
                 <h3 className='h3_marge'>BtoGreen : Diminuer son bilan d’émission de CO2 avec un diagnostic complet et des conseils personnalisés</h3>
                 <div className='texte_parle_de_nous'>

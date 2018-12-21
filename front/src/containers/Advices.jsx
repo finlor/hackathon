@@ -11,7 +11,10 @@ class Advices extends React.Component {
           <Col><h1>Nos Conseils</h1></Col>
         </Row>
         <Row>
-          <Col className="Colonne" xs="12" lg="4"><img className={"conception"} src={"./images/conception.jpeg"} />
+          <Col className="Colonne" xs="12" lg="4">
+            <Link className='link' to='/achat</Link>'>
+              <img className={"conception"} src={"./images/conception.jpeg"} />
+            </Link>
             <div className='hoverAdvicesImg policetitre concep'>
               <p>CONCEPTION</p>
             </div>
@@ -26,19 +29,28 @@ class Advices extends React.Component {
                   <p>ACHAT</p>
                 </div>
               </Col>
-              <Col className="Colonne" xs="12" lg="4" ><img className={"use"} src={"./images/use.jpeg"} />
+              <Col className="Colonne" xs="12" lg="4" >
+                <Link className='link' to='/achat'>
+                  <img className={"use"} src={"./images/use.jpeg"} />
+                </Link>
                 <div className='Img policetitre uti'>
                   <p>UTILISATION</p>
                 </div>
               </Col>
             </Row>
             <Row>
-              <Col className="Colonne" xs="12" lg="4" ><img className={"reuse"} src={"./images/reuse.jpeg"} />
+              <Col className="Colonne" xs="12" lg="4" >
+                <Link className='link' to='/achat</Link>'>
+                  <img className={"reuse"} src={"./images/reuse.jpeg"} />
+                </Link>
                 <div className='Img policetitre reut'>
                   <p>REUTILISATION</p>
                 </div>
               </Col>
-              <Col className="Colonne" xs="12" lg="8" ><img className={"destruction"} src={"./images/destruction.jpg"} />
+              <Col className="Colonne" xs="12" lg="8" >
+                <Link className='link' to='/achat</Link>'>
+                  <img className={"destruction"} src={"./images/destruction.jpg"} />
+                </Link>
                 <div className='Img policetitre dest'>
                   <p>DESTRUCTION</p>
                 </div>

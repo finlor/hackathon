@@ -1,14 +1,15 @@
 @import '../index.scss';
 
 .Bilan{
-    padding: 150px 50px 50px 50px;
-    
-}
+    padding: 150px 150px 50px 150px;
+        background-image: url('/images/iceland-1979445_1280.jpg');
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100%;
+
 .entourage{
-background-color: #3ea770;
-background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
- padding: 50px;
+background-color: #3ea771c5;
+ padding: 40px;
  border-radius: 25px;
 }
 .title{
@@ -18,7 +19,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
   .button_submit{
     border-radius: 8px;
       padding: 20px 100px 20px 100px;
-       margin: 0px 250px 0px 250px;
+       margin: 0px 180px 0px 180px;
     border: none;
     background-color: #000724;
     color: white;
@@ -92,8 +93,16 @@ font-size: 1.5em;
   }
   h1, h2, h3{
     font-family: 'Caviar Dreams' !important;
+    text-align: center;
   }
   .title_second{
-text-align: center;
+
 margin-top: 50px;
   }
+  h1{
+    font-size: 3em !important;
+  }
+    h2{
+    font-size: 2.5em !important;
+  }
+}

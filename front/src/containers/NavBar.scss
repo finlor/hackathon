@@ -1,8 +1,4 @@
 
-.color_button{
-  color: white !important;
-
-}
 .navbar{
   position: fixed !important;
   width: 100%;
@@ -10,11 +6,16 @@
 }
 .colorfond{
 background-color: #000724 !important;
-
 }
 .texte_link{
-  text-align: center;
   color: white;
    font-family: 'Caviar Dreams' !important;
 
+}
+.texte_align_center{
+  text-align: center;
+  font-size: 2em;
+}
+.texte_link:hover{
+  color: white !important;
 }

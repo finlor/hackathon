@@ -24,13 +24,13 @@ class Footer extends Component {
           </div>
           <div className='element_footer'>
             <a href="https://www.facebook.com/">
-              <img src="http://jpfventures.com/wp-content/uploads/2015/03/facebook-5-256.png" alt="Facebook" width="14%" />
+              <img width="11%" className='logo_shar_footer' src="../../images/facebook.svg" alt="Facebook" />
             </a>
             <a href="https://twitter.com">
-              <img src="http://www.ago-formation.fr/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/social/img/twitter.svg" alt="Twitter" width="11%" />
+              <img width="11%" className='logo_shar_footer' src="../../images/twitter.svg" alt="Twitter" />
             </a>
             <a href="https://www.linkedin.com">
-              <img src="http://www.ago-formation.fr/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/social/img/linkedin.svg" alt="Linkedin" width="11%" />
+              <img  width="11%" className='logo_shar_footer' src="../../images/linkedin.svg" alt="Linkedin" />
             </a>
           </div>
         </div>

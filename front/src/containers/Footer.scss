@@ -4,6 +4,10 @@
   padding-bottom: 30px;
   background-color: #000724;
 
+svg, path{
+  fill: red !important;
+}
+
   .Footer_display {
     display: flex;
     justify-content: space-between;

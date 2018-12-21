@@ -1,9 +1,14 @@
 .AddLayer{
    display: flex;
-  padding-top: 100px;
+  padding-top: 120px;
+      background-image: url('/images/iceland-1979445_1280.jpg');
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100%;
   .text_title{
     margin: 0px auto 5px auto;
      font-family: 'Caviar Dreams' !important;
+     font-size: 3em !important;
   }
   .content_add_layer{
     margin: 25px auto 0px auto;
@@ -31,7 +36,7 @@
   .button_submit{
     border-radius: 8px;
       padding: 10px 50px 10px 50px;
- 
+ margin-left: 40%;
     border: none;
     background-color: #000724;
     color: white;
@@ -49,9 +54,7 @@
     margin-bottom: 35px;
   }
   .content_add_layer{
-background-color: #3ea770;
-background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+background-color: #3ea771c5;
  border-radius: 25px;
  padding-top: 25px;
  margin-bottom: 50px;
@@ -67,4 +70,5 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
     padding: 10px;
     margin: 50px 0px 25px 0px;
   }
+
 }

@@ -25,6 +25,7 @@ class Bilan extends Component {
               <img className='imageBilan' src='./images/index.jpeg' alt='image'/>
           </div>
         </div>
+        <hr/>
         <div className='conseil_perso'>
           <h2 className='title_second'>Conseils personnalisés</h2>
 
