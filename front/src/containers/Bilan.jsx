@@ -30,7 +30,7 @@ class Bilan extends Component {
           <h2 className='title_second'>Conseils personnalisés</h2>
 
           <div className='conseil_liste'>
-            <NavLink to='/conseil' className='groopCard'>
+            <NavLink to='/article' className='groopCard'>
               <img className={"conseil"} src={"./images/purchase.jpg"} />
               <div className='hoverImg'>
                   <p>Achat</p>
@@ -38,7 +38,7 @@ class Bilan extends Component {
                 <p>Coût : 427541€</p>
               </div>
             </NavLink>
-            <NavLink to='/conseil' className='groopCard'>
+            <NavLink to='/article' className='groopCard'>
             <img className={"conseil"} src={"./images/use.jpeg"} />
             <div>
               <div className='hoverImg'>
@@ -48,7 +48,7 @@ class Bilan extends Component {
               </div>
             </div>
             </NavLink>
-            <NavLink to='/conseil' className='groopCard'>
+            <NavLink to='/article' className='groopCard'>
             <img className={"conseil"} src={"./images/reuse.jpeg"} />
             <div>
               <div className='hoverImg'>

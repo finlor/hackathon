@@ -1,0 +1,36 @@
+.adviceobsolet {
+  padding-top: 100px;
+  height: 800px;
+
+  .articletotal {
+    padding: 20px;
+    
+    
+
+    .article {
+      padding: 50px;
+      
+      border-bottom-right-radius: 25px;
+      border-top-right-radius: 25px;
+    }
+
+    .titre {
+      font-family: 'Caviar Dreams' !important;
+      font-size: 3.5em;
+    }
+
+    .paragraphe {
+      font-family: 'Calibri' !important;
+      font-size: 1.6em;
+      margin-top: 20px;
+    }
+
+    .image {
+      background-image: url('/images/leave.jpg');
+      background-size: cover;
+      border-bottom-left-radius: 25px;
+      border-top-left-radius: 25px;
+
+    }
+  }
+}
