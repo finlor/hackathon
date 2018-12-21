@@ -13,24 +13,25 @@ class Bilan extends Component {
       <div className='Bilan'>
       <div className='entourage'>
           <h1 className='title'>Votre bilan</h1>
-          <div className='entreprise'>
-            <div className='fiche_salarier'>
-                <p>Nom : EDF</p>
-              <p>Secteur d'activité : Production énergétique</p>
-                <p>Nombre de salirié : 154 845</p>
-                <p>Renouvelement équipement : Si nécessaire </p>
-              <p>Bilan carbone : 42t CO2 par salarié</p>
-            </div>
-            <div>
-                <img className='imageBilan' src='./images/index.jpeg' alt='image'/>
-            </div>
+        <div className='entreprise'>
+          <div className='fiche_salarier'>
+              <p>Nom : EDF</p>
+            <p>Secteur d'activité : Production énergétique</p>
+              <p>Nombre de saliriés : 154 845</p>
+              <p>Renouvelement équipement : Si nécessaire </p>
+            <p>Bilan carbone : 42 ppm par salarié</p>
+          </div>
+          <div>
+              <img className='imageBilan' src='./images/index.jpeg' alt='image'/>
           </div>
         <hr/>
         <div className='conseil_perso'>
           <h2 className='title_second'>Conseils personnalisés</h2>
 
           <div className='conseil_liste'>
-            <NavLink to='/conseil' className='groopCard'>
+
+            <NavLink to='/article' className='groopCard'>
+
               <img className={"conseil"} src={"./images/purchase.jpg"} />
               <div className='hoverImg'>
                   <p>Achat</p>
@@ -38,7 +39,8 @@ class Bilan extends Component {
                 <p>Coût : 427541€</p>
               </div>
             </NavLink>
-            <NavLink to='/conseil' className='groopCard'>
+            <NavLink to='/article' className='groopCard'>
+
             <img className={"conseil"} src={"./images/use.jpeg"} />
             <div>
               <div className='hoverImg'>
@@ -48,7 +50,7 @@ class Bilan extends Component {
               </div>
             </div>
             </NavLink>
-            <NavLink to='/conseil' className='groopCard'>
+            <NavLink to='/article' className='groopCard'>
             <img className={"conseil"} src={"./images/reuse.jpeg"} />
             <div>
               <div className='hoverImg'>
