@@ -1,27 +1,24 @@
 .AdviceAchat{
-  padding-top: 125px;
+  padding-top: 200px;
+  padding-bottom: 70px;
+  height: 1000px;
+  background-image: url("https://asmmag.com/wp-content/uploads/2016/03/sustainable_cities.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 .backgroundNews {
-  background-color: #3ea771c5;
   border-radius: 1%;
-  margin-top: 2px;
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-bottom: 2%;
+  max-width: 1200px;
   padding-top: 75px;
-}
-
-.newsRow {
-  padding-top: 2%;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-bottom: 75px;
+  margin-left: 18% !important;
+  background-image: linear-gradient(141deg, #a8bec5 0%, white 51%, #dddfb6 95%);
 }
 
 .card {
   border: none;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 h2 {

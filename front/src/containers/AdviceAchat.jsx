@@ -21,12 +21,11 @@ class AdviceAchat extends React.Component {
       <div className='AdviceAchat'>
         <div className="backgroundNews">
           <Card inverse>
-            <Container fluid>
+            <Container>
               <Row className="newsRow">
                 {this.state.news.map(carteNews => {
-
                   return (
-                    <Col key={carteNews.id} className="hit" lg={4}>
+                    <Col key={carteNews.id} className="hit" lg={6}>
                       <NavLink to={`/article`} className="linkNav"><div className="div-wrapper">
                         <CardImg width="100%" src={carteNews.image} alt="img1" />
                         <CardImgOverlay>
