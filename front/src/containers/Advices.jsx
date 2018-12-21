@@ -17,7 +17,7 @@ class Advices extends React.Component {
                 <img className={"conception"} src={"./images/conception.jpeg"} />
               </Link>
               <div className='hoverAdvicesImg policetitre concep'>
-                <p>CONCEPTION</p>
+                <p className="titreCONCEPTION">CONCEPTION</p>
               </div>
             </Col>
             <Col className="Colonne" xs="12" lg="8">
@@ -27,7 +27,7 @@ class Advices extends React.Component {
                     <img className={"purchase"} src={"./images/purchase.jpg"} />
                   </Link>
                   <div className='Img policetitre achat'>
-                    <p>ACHAT</p>
+                    <p className="titreACHAT">ACHAT</p>
                   </div>
                 </Col>
                 <Col className="Colonne" xs="12" lg="4" >
@@ -35,7 +35,7 @@ class Advices extends React.Component {
                     <img className={"use"} src={"./images/use.jpeg"} />
                   </Link>
                   <div className='Img policetitre uti'>
-                    <p>UTILISATION</p>
+                    <p className="titreUTILISATION">UTILISATION</p>
                   </div>
                 </Col>
               </Row>
@@ -45,7 +45,7 @@ class Advices extends React.Component {
                     <img className={"reuse"} src={"./images/reuse.jpeg"} />
                   </Link>
                   <div className='Img policetitre reut'>
-                    <p>REUTILISATION</p>
+                    <p className="titreREUTILISATION">REUTILISATION</p>
                   </div>
                 </Col>
                 <Col className="Colonne" xs="12" lg="8" >
@@ -53,7 +53,7 @@ class Advices extends React.Component {
                     <img className={"destruction"} src={"./images/destruction.jpg"} />
                   </Link>
                   <div className='Img policetitre dest'>
-                    <p>DESTRUCTION</p>
+                    <p className="titreDESTRUCTION">DESTRUCTION</p>
                   </div>
                 </Col>
               </Row>
