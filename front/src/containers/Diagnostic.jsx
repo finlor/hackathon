@@ -61,9 +61,9 @@ class Diagnostic extends Component {
               <Col sm="6">
                 <ul className="liste_input">
                   <li className="item_input">
-                    <label className="label_input" htmlFor="hostSite">
+                    <label className="label_input" htmlFor="name">
                       <p>Nom de l'entreprise</p>
-                      <input name="hostSite" id="hostSite" onChange={this.inputChange} value={hostSite} type="text" />
+                      <input name="name" id="name" onChange={this.inputChange} value={name} type="text" />
                     </label>
                   </li>
                   <li className="item_input">
@@ -133,7 +133,7 @@ class Diagnostic extends Component {
                 </NavLink>
               </Col>
               <Col xs="6" className="text_align_center">
-                <NavLink to="/bilan">
+                <NavLink to={`/bilan`}>
                   <button className="button_submit" type="button">
                     Valider
                 </button>

@@ -35,10 +35,11 @@ font-size: 1.5em;
     transition: 0.4s;
   }
   .fiche_salarier{
-    padding: 20px 0px 0px 100px;
+    padding: 50px 50px 20px 50px;
     font-family: 'Calibri' !important;
     font-size: 1.3em;
-  
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
   }
   .conseil_liste{
     display: flex;
@@ -69,6 +70,7 @@ font-size: 1.5em;
     color: black;
     font-Weight: Bold;
      font-family: 'Calibri' !important;
+     text-align: center;
      
   }
   .groopCard{
@@ -77,7 +79,6 @@ font-size: 1.5em;
   }
   .conseil:hover{
     box-shadow: 10px 10px 10px black;
-     filter: blur(1px);
   }
   .groopCard:hover{
  text-decoration: none; 
@@ -89,15 +90,15 @@ font-size: 1.5em;
    
   }
   .imageBilan{
- border-radius: 25px;
+    border-radius: 25px;
+    margin: 50px 0px 50px 0px;
   }
   h1, h2, h3{
     font-family: 'Caviar Dreams' !important;
     text-align: center;
   }
   .title_second{
-
-margin-top: 50px;
+    margin-top: 50px;
   }
   h1{
     font-size: 3em !important;

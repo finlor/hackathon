@@ -15,11 +15,11 @@ class Bilan extends Component {
           <h1 className='title'>Votre bilan</h1>
         <div className='entreprise'>
           <div className='fiche_salarier'>
-            <p>Nom : EDF</p>
+              <p>Nom : EDF</p>
             <p>Secteur d'activité : Production énergétique</p>
-            <p>Nombre de salirié : 5421</p>
-            <p>Renouvelement équipement : fort</p>
-            <p>Bilan carbone : 50 tCO2eq par salarié</p>
+              <p>Nombre de salirié : 154 845</p>
+              <p>Renouvelement équipement : Si nécessaire </p>
+            <p>Bilan carbone : 42t CO2 par salarié</p>
           </div>
           <div>
               <img className='imageBilan' src='./images/index.jpeg' alt='image'/>
@@ -33,16 +33,18 @@ class Bilan extends Component {
             <NavLink to='/conseil' className='groopCard'>
               <img className={"conseil"} src={"./images/purchase.jpg"} />
               <div className='hoverImg'>
-                <p>Geste</p>
+                  <p>Achat</p>
                 <p>Gain carbone 9700/j</p>
+                <p>Coût : 427541€</p>
               </div>
             </NavLink>
             <NavLink to='/conseil' className='groopCard'>
             <img className={"conseil"} src={"./images/use.jpeg"} />
             <div>
               <div className='hoverImg'>
-                <p>Geste</p>
+                <p>Utilisation</p>
                 <p>Gain carbone 500/j</p>
+                <p>Coût : 4520€</p>
               </div>
             </div>
             </NavLink>
@@ -50,8 +52,9 @@ class Bilan extends Component {
             <img className={"conseil"} src={"./images/reuse.jpeg"} />
             <div>
               <div className='hoverImg'>
-                <p>Geste</p>
+                <p>Réemploi</p>
                 <p>Gain carbone 1500/j</p>
+                <p>Coût : 0€</p>
               </div>
             </div>
             </NavLink>
