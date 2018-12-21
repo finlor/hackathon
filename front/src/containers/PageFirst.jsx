@@ -26,7 +26,7 @@ class PageFirst extends Component {
           
         </div>
         <div className='element_link_avant'>
-          <h2>Article de presse</h2>
+          <h2>Nos outils</h2>
         <div className='lien_vers_page'>
          
           <div className='element_link'>
