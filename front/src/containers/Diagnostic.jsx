@@ -128,7 +128,7 @@ class Diagnostic extends Component {
               <Col xs="6" className="text_align_center">
                 <NavLink to="/pagefirst">
                   <button className="button_submit" type="button">
-                    return
+                    Return
                   </button>
                 </NavLink>
               </Col>

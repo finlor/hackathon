@@ -57,7 +57,7 @@ class PageFirst extends Component {
             <p className='paraTaille'>
               Nous mettons à votre disposition un lieu pour revendre votre matériel obsolète et ainsi nous aider à diminuer l’émission de CO2 ensemble.
             </p>
-            <Link className='link' to='/marketplace'>
+              <Link className='link' to='/marketplace'>
               Go
             </Link>
           </div>

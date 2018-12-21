@@ -9,6 +9,7 @@ import Home from "./containers/Home";
 import Footer from './containers/Footer';
 import Advices from './containers/Advices';
 import AdviceAchat from './containers/AdviceAchat';
+import MarketPlace from './containers/MarketPlace';
 
 class App extends Component {
   render() {
@@ -18,12 +19,11 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/pagefirst" component={PageFirst} />
-          <Route onUpdate={window.scrollTo(0, 0)} path="/marketplace" component={PageFirst} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/marketplace" component={MarketPlace} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/conseil" component={Advices} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/Diagnostic" component={Diagnostic} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/bilan" component={Bilan} />
-          <Route path="/achat" component={AdviceAchat} />
-
+          <Route onUpdate={window.scrollTo(0, 0)} path="/achat" component={AdviceAchat} />
         </Switch>
         <Footer />
       </div>

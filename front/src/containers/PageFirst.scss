@@ -8,16 +8,20 @@ margin: auto;
 padding: 250px 20% 0px 20%;
   font-size: 4em;
      font-family: $font-general !important;
-     height: 500px;
+     height: 625px;
      width: 100%;
-    background-image: url('/images/destruction.jpg');
+    background-image: url('/images/iceland-1979445_1280.jpg');
+    background-repeat: no-repeat;
      background-attachment: fixed;
+     background-size: 100%;
 }
 .phrase_accroche{
   text-align: center;
   padding: 25px;
  background-color: rgba(255, 255, 255, 0.822);
   border-radius: 25px;
+    font-family: 'Bebas Neue';
+     font-style: italic;
 }
 
 .image_fond{
@@ -61,7 +65,8 @@ box-shadow: 5px 5px 5px black;
 h5{
   text-align: center;
   padding: 15px 0px 5px 0px;
-  font-size: 20px;
+  font-size: 1.7em !important;
+   font-family: 'Caviar Dreams';
 }
 
 .logo{
@@ -71,7 +76,8 @@ h5{
 .paraTaille{
   font-size: 0.9em;
   margin-bottom: 50px;
-  text-align: justify
+  text-align: justify;
+  font-family: 'Calibri';
 }
 .article_image{
   width: 400px;
@@ -101,6 +107,7 @@ padding: 30px;
 }
 .h3_marge{
   text-align: center;
+    font-family: 'Calibri' !important;
 }
 .image_actu{
   margin-top: 20px;
@@ -117,7 +124,7 @@ padding: 30px;
     align-self: center;
     font-weight: bold;
     transition: 0.4s;
-
+ font-family: 'Caviar Dreams' !important;
   }
   .link:hover{
     background-color: #3ea770;
@@ -145,4 +152,11 @@ margin: 20px 20px 0px 20px;
   h2{
     text-align: center;
     font-size: 3em !important;
+     font-family: 'Caviar Dreams' !important;
+  }
+  h4{
+        font-family: 'Calibri' !important;
+  }
+  p{
+        font-family: 'Calibri' !important;
   }

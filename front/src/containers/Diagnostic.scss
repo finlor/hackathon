@@ -3,6 +3,7 @@
   padding-top: 100px;
   .text_title{
     margin: 0px auto 5px auto;
+     font-family: 'Caviar Dreams' !important;
   }
   .content_add_layer{
     margin: 25px auto 0px auto;
@@ -37,7 +38,7 @@
     align-self: center;
     font-weight: bold;
     transition: 0.4s;
-
+ font-family: 'Caviar Dreams' !important;
   }
   .button_submit:hover{
     background-color: white;
@@ -57,6 +58,7 @@ background-image: url("https://www.transparenttextures.com/patterns/concrete-wal
   }
   p{
     font-size: 1.2em;
+    font-family: 'Calibri' !important;
   }
   select, option, input{
     font-size: 1.2em ;
