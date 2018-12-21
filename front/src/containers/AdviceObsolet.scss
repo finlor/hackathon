@@ -1,15 +1,17 @@
 .adviceobsolet {
   padding-top: 100px;
-  height: 800px;
+  background-image: url("https://asmmag.com/wp-content/uploads/2016/03/sustainable_cities.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
 
   .articletotal {
-    padding: 20px;
-    
-    
+    margin-top: 10%;
+    padding-bottom: 10%;
 
     .article {
       padding: 50px;
-      
+      background-image: linear-gradient(141deg, #a8bec5 0%, white 51%, #dddfb6 95%);
       border-bottom-right-radius: 25px;
       border-top-right-radius: 25px;
     }
