@@ -41,7 +41,7 @@ class MarketPlace extends Component {
     return (
         <div className='MarketPlace'>
           <div className="backgroundNews">
-              <h1>Market Place</h1>
+              <h1 className={"marketTitle"}>Market Place</h1>
             <Card inverse>
               <Container fluid>
                 <Row className="newsRow">
