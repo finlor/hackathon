@@ -84,13 +84,6 @@ class Diagnostic extends Component {
                       <option>Plus de 16 ans</option>
                     </select>
                   </li>
-                  <li className="item_input">
-                    <p>Category</p>
-                    <select name="categories" id="categories" onChange={this.inputChange}>
-                      <option>test</option>
-                      <option>dsrg</option>
-                    </select>
-                  </li>
                 </ul>
               </Col>
               <Col sm="6">
@@ -126,13 +119,6 @@ class Diagnostic extends Component {
                       <option>2 à 5 ans</option>
                       <option>6 à 15 ans</option>
                       <option>Plus de 16 ans</option>
-                    </select>
-                  </li>
-                  <li className="item_input">
-                    <p>Category</p>
-                    <select name="categories" id="categories" onChange={this.inputChange}>
-                      <option>test</option>
-                      <option>dsrg</option>
                     </select>
                   </li>
                 </ul>
