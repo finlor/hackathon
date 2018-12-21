@@ -22,8 +22,11 @@ class PageFirst extends Component {
     return (
       <div className="PageFirst">
         <div className='image'>
-          <p className='phrase_accroche'>"Un bel avenir pour demain"</p>
-          
+          <p className='phrase_accroche'>
+              Choisissez la sobriété numérique<br/>
+              Pour votre entreprise et pour l'avenir
+          </p>
+
         </div>
         <div className='element_link_avant'>
           <h2 className='titre_section' >Nos outils</h2>
