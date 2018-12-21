@@ -12,24 +12,24 @@ class MarketPlace extends Component {
         "id": 1,
         "image": "./images/ml350.jpg",
         "titre": "HPE ML350 G5",
-        "texte": "Intel Xeon 2660 2.8Ghz - 32Go RAM - 3 disques SAS 15k tr/min 500Go - Mis en service en Mars 2014",
+        "texte": " Intel Xeon 2660 2.8Ghz - 32Go RAM - 3 disques SAS 15k tr/min 500Go - Mis en service en Mars 2014",
         "Prix": "1229.99€ HT"
       }, {
         "id": 2,
         "image": "./images/dl360.jpg",
-        "titre": "HPE DL360 G6",
+        "titre": " HPE DL360 G6",
         "texte": "Intel Xeon 2210 2.6Ghz - 16Go RAM - 3 disques SAS 15k tr/min 300Go - Mis en service en Juin 2015",
         "Prix": "1679.99€ HT"
       }, {
         "id": 3,
         "image": "./images/rx2530.jpg",
-        "titre": "fujitsu rx2530 m4",
+        "titre": " Fujitsu rx2530 m4",
         "texte": " Intel Xeon 4110 2.4Ghz - 64Go RAM - 3 disques SAS 15k tr/min 900Go - Mis en service en Juin 2017",
         "Prix": "1929.99€ HT"
       }, {
         "id": 4,
         "image": "./images/t320.jpg",
-        "titre": "Dell PowerEdge T320",
+        "titre": " Dell PowerEdge T320",
         "texte": "Intel Xeon 2110 2.8Ghz - 16Go RAM - 3 disques SAS 15k tr/min 300Go - Mis en service en Décembre 2012",
         "Prix": "849.99€ HT"
       }]
