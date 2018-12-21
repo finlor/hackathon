@@ -31,10 +31,10 @@ export default class Example extends React.Component {
                 <NavLink href="/Diagnostic/">Diagnostic</NavLink>
               </NavItem>
               <NavItem className='texte_link'>
-                <NavLink href="/conseil/">Conseils</NavLink>
+                <NavLink href="/conseil">Conseils</NavLink>
               </NavItem>
               <NavItem className='texte_link'>
-                <NavLink href="/marketplace/"> Market place</NavLink>
+                <NavLink href="/marketplace"> Market place</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

@@ -12,7 +12,7 @@ class Advices extends React.Component {
         </Row>
         <Row>
           <Col className="Colonne" xs="12" lg="4"><img className={"conception"} src={"./images/conception.jpeg"} />
-            <div className='hoverImg policetitre concep'>
+            <div className='hoverAdvicesImg policetitre concep'>
               <p>CONCEPTION</p>
             </div>
           </Col>

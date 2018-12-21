@@ -54,7 +54,11 @@ box-shadow: 5px 5px 5px black;
   
 }
 .actualitées_item{
-  padding: 100px 0px 100px 0px;
+  padding: 100px 30px 100px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
 }
 .il_parle_de_nous{
   background-color: #3ea770;
@@ -110,7 +114,8 @@ padding: 30px;
     font-family: 'Calibri' !important;
 }
 .image_actu{
-  margin-top: 20px;
+  margin: 20px;
+  margin-left: 10%;
   width: 500px;
   border-radius: 25px;
 }
@@ -140,6 +145,8 @@ padding: 30px;
   }
   .logo_share{
 margin: 20px 20px 0px 20px;
+width: 50px;
+color: rgba(255, 255, 255, 0);
   }
   .fond_fond{
     background-color: rgba(255, 255, 255, 0.801);
@@ -159,4 +166,13 @@ margin: 20px 20px 0px 20px;
   }
   p{
         font-family: 'Calibri' !important;
+  }
+  .titre_item_actu{
+    text-align: center;
+  }
+  .actu_link_reso{
+    margin-left: 35%;
+    
+
+    
   }

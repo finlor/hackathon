@@ -34,7 +34,7 @@ class PageFirst extends Component {
             <h5>Diagnostic</h5>
 
             <p className='paraTaille'>
-              Notre outil d’évaluation vous renseigne sur votre émission de CO2 à travers vos outils numérique.
+              Notre outil d’évaluation vous renseigne sur votre émission de CO2 de votre entreprise à travers un questionnaire simple et rapide.
             </p>
             <Link className='link' to='/diagnostic'>
               Go
@@ -68,40 +68,40 @@ class PageFirst extends Component {
           <h2>Article de presse</h2>
           <div className='actualitées'>
             <div className='actualitées_item'>
-              <h4>La société s’empare de la sobriété numérique</h4>
+              <h4 className='titre_item_actu'>La société s’empare de la sobriété numérique</h4>
               <a href='https://www.greenit.fr/2018/10/02/societe-sempare-de-sobriete-numerique/
 '>
                 <img className='image_actu' src='./images/Capture d’écran 2018-12-20 à 16.58.25.png' alt='image' />
               </a>
-              <div >
+              <div className='actu_link_reso' >
                 <a  href="https://www.facebook.com/">
-                  <img className='logo_share' src="http://jpfventures.com/wp-content/uploads/2015/03/facebook-5-256.png" alt="Facebook" width="6%" />
+                    <img className='logo_share' src="../../images/facebook-square-brands.svg" alt="Facebook" />
                 </a>
                 <a  href="https://twitter.com">
-                  <img className='logo_share' src="http://www.ago-formation.fr/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/social/img/twitter.svg" alt="Twitter" width="5%" />
+                    <img className='logo_share' src="../../images/twitter-square-brands.svg" alt="Twitter" />
                 </a>
                 <a  href="https://www.linkedin.com">
-                  <img className='logo_share' src="http://www.ago-formation.fr/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/social/img/linkedin.svg" alt="Linkedin" width="5%" />
+                    <img className='logo_share' src="../../images/linkedin-brands.svg" alt="Linkedin" />
                 </a>
               </div>
               </div>
             <div className='actualitées_item'>
-              <h4>Un numérique de plus en plus vorace en énergie</h4>
+              <h4 className='titre_item_actu'>Un numérique de plus en plus vorace en énergie</h4>
               <a href='https://theshiftproject.org/article/pour-une-sobriete-numerique-rapport-shift/
 
 '>
                 <img className='image_actu' src='./images/Capture d’écran 2018-12-20 à 16.57.17.png' alt='image' />
               </a> 
-              <div >
-                <a href="https://www.facebook.com/">
-                  <img className='logo_share' src="http://jpfventures.com/wp-content/uploads/2015/03/facebook-5-256.png" alt="Facebook" width="6%" />
-                </a>
-                <a href="https://twitter.com">
-                  <img className='logo_share' src="http://www.ago-formation.fr/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/social/img/twitter.svg" alt="Twitter" width="5%" />
-                </a>
-                <a href="https://www.linkedin.com">
-                  <img className='logo_share' src="http://www.ago-formation.fr/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/social/img/linkedin.svg" alt="Linkedin" width="5%" />
-                </a>
+              <div className='actu_link_reso' >
+                  <a href="https://www.facebook.com/">
+                    <img className='logo_share' src="../../images/facebook-square-brands.svg" alt="Facebook" />
+                  </a>
+                  <a href="https://twitter.com">
+                    <img className='logo_share' src="../../images/twitter-square-brands.svg" alt="Twitter" />
+                  </a>
+                  <a href="https://www.linkedin.com">
+                    <img className='logo_share' src="../../images/linkedin-brands.svg" alt="Linkedin" />
+                  </a>
               </div>
               </div>
             </div>
