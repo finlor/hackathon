@@ -7,7 +7,8 @@ import Diagnostic from './containers/Diagnostic';
 import Bilan from './containers/Bilan';
 import Home from "./containers/Home";
 import Footer from './containers/Footer';
-import Advices from './containers/Advices'
+import Advices from './containers/Advices';
+import AdviceAchat from './containers/AdviceAchat';
 
 class App extends Component {
   render() {
@@ -21,6 +22,8 @@ class App extends Component {
           <Route onUpdate={window.scrollTo(0, 0)} path="/conseil" component={Advices} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/Diagnostic" component={Diagnostic} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/bilan" component={Bilan} />
+          <Route path="/achat" component={AdviceAchat} />
+
         </Switch>
         <Footer />
       </div>
