@@ -11,6 +11,8 @@ import Advices from './containers/Advices';
 import AdviceAchat from './containers/AdviceAchat';
 import MarketPlace from './containers/MarketPlace';
 import AdviceObsolet from './containers/AdviceObsolet';
+import Newszoom from './containers/Newszoom';
+
 
 class App extends Component {
   render() {
@@ -26,6 +28,8 @@ class App extends Component {
           <Route onUpdate={window.scrollTo(0, 0)} path="/bilan" component={Bilan} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/achat" component={AdviceAchat} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/article" component={AdviceObsolet} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/newzoom" component={Newszoom} />
+
         </Switch>
         <Footer />
       </div>
