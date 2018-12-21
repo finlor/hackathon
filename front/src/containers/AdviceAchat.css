@@ -1,6 +1,6 @@
 .AdviceAchat{
   padding-top: 200px;
-  padding-bottom: 70px;
+  padding-bottom: 1100px;
   height: 1000px;
   background-image: url("https://asmmag.com/wp-content/uploads/2016/03/sustainable_cities.jpg");
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@
   background-size: 100%;
 }
 
-.backgroundNews {
+.bgNews {
   border-radius: 1%;
   max-width: 1200px;
   padding-top: 75px;
@@ -25,13 +25,12 @@ h2 {
   font-size: 23px!important;
 }
 .hit{
-  padding-bottom: 3%;
+  padding-bottom: 5%;
 }
 
 .backimg {
   background-color: rgba(29, 29, 29, 0.7);
   width: 100%;
-
 }
 
 .div-wrapper:hover {

@@ -19,10 +19,10 @@ class AdviceAchat extends React.Component {
 
     return (
       <div className='AdviceAchat'>
-        <div className="backgroundNews">
+        <div className="bgNews">
           <Card inverse>
             <Container>
-              <Row className="newsRow">
+              <Row>
                 {this.state.news.map(carteNews => {
                   return (
                     <Col key={carteNews.id} className="hit" lg={6}>
