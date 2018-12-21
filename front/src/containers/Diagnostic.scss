@@ -1,5 +1,5 @@
 .AddLayer{
-  display: flex;
+   display: flex;
   padding-top: 100px;
   .text_title{
     margin: 0px auto 5px auto;
@@ -41,11 +41,19 @@
 
   }
   .button_submit:hover{
-    background-color: #3ea770;
+    background-color: white;
     color: black;
     transition: 0.4s;
   }
   .endPage{
     margin-bottom: 35px;
+  }
+  .content_add_layer{
+background-color: #3ea770;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+ border-radius: 25px;
+ padding-top: 25px;
+ margin-bottom: 50px;
   }
 }

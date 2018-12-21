@@ -28,13 +28,13 @@ export default class Example extends React.Component {
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               <NavItem className='texte_link'>
-                <NavLink href="/components/">Diagnostic</NavLink>
+                <NavLink href="/Diagnostic/">Diagnostic</NavLink>
               </NavItem>
               <NavItem className='texte_link'>
-                <NavLink href="/components/">Conseils</NavLink>
+                <NavLink href="/conseil/">Conseils</NavLink>
               </NavItem>
               <NavItem className='texte_link'>
-                <NavLink href="/components/"> Market place</NavLink>
+                <NavLink href="/marketplace/"> Market place</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

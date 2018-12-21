@@ -1,5 +1,15 @@
+@import '../index.scss';
+
 .Bilan{
-    padding-top: 100px;
+    padding: 150px 50px 50px 50px;
+    
+}
+.entourage{
+background-color: #3ea770;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+ padding: 50px;
+ border-radius: 25px;
 }
 .title{
   padding: 20px 0px 0px 50px;
@@ -7,23 +17,27 @@
 
   .button_submit{
     border-radius: 8px;
-      padding: 10px 50px 10px 50px;
-       margin: 0px 0px 0px 25%;
+      padding: 20px 100px 20px 100px;
+       margin: 0px 250px 0px 250px;
     border: none;
     background-color: #000724;
     color: white;
     align-self: center;
     font-weight: bold;
     transition: 0.4s;
+font-size: 1.5em;
 
   }
   .button_submit:hover{
-    background-color: #3ea770;
+    background-color: white;
     color: black;
     transition: 0.4s;
   }
   .fiche_salarier{
     padding: 20px 0px 0px 100px;
+    font-family: 'roboto' !important;
+    font-size: 1.3em;
+  
   }
   .conseil_liste{
     display: flex;
@@ -39,16 +53,22 @@
     border-radius: 10px;
     width: 300px;
     height: 300px;
-    opacity: 0.8;
+    opacity: 0.7;
      position: absolute;
     box-shadow: 5px 5px 5px black;
+    filter: blur(0px);
   }
   .hoverImg{
     position: relative;
+    background-color: rgba(255, 255, 255, 0.63);
+    padding: 10px;
+    border-radius: 25px;
     margin: 50px;
     font-size: 1.5em;
     color: black;
-    Font-Weight: Bold;
+    font-Weight: Bold;
+     font-family: $font-general !important;
+     
   }
   .groopCard{
  padding: 50px;
@@ -56,8 +76,24 @@
   }
   .conseil:hover{
     box-shadow: 10px 10px 10px black;
-     
+     filter: blur(1px);
   }
   .groopCard:hover{
  text-decoration: none; 
+  }
+  .entreprise{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 125px;
+   
+  }
+  .imageBilan{
+ border-radius: 25px;
+  }
+  h1, h2, h3{
+    font-family: $font-general !important;
+  }
+  .title_second{
+text-align: center;
+margin-top: 50px;
   }

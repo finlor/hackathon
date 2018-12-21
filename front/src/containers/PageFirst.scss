@@ -1,12 +1,25 @@
+@import '../index.scss';
+
 .PageFirst{
  background-image: './images/Couverture.jpg';
 }
-.phrase_accroche{
-  position: absolute;
-  top: 250px;
-  left: 400px;
-  font-size: 5em;
+.image{
+margin: auto;
+padding: 250px 20% 0px 20%;
+  font-size: 4em;
+     font-family: $font-general !important;
+     height: 500px;
+     width: 100%;
+    background-image: url('/images/destruction.jpg');
+     background-attachment: fixed;
 }
+.phrase_accroche{
+  text-align: center;
+  padding: 25px;
+ background-color: rgba(255, 255, 255, 0.822);
+  border-radius: 25px;
+}
+
 .image_fond{
   width: 100%;
   height: 25vw;
@@ -15,7 +28,10 @@
 .lien_vers_page{
   display: flex;
   justify-content: space-around;
-  background-color: #3ea770;
+  
+}
+.element_link_avant{
+background-color: #3ea770;
   padding: 75px 0px 75px 0px;
 }
 
@@ -39,6 +55,8 @@ box-shadow: 5px 5px 5px black;
 .il_parle_de_nous{
   background-color: #3ea770;
   padding: 25px;
+  display: flex;
+  justify-content: space-around;
 }
 h5{
   text-align: center;
@@ -48,29 +66,38 @@ h5{
 
 .logo{
   width: 160px;
-  margin-left: 40px;;
+  margin: 0px 50px 0px 50px;
 }
 .paraTaille{
   font-size: 0.9em;
   margin-bottom: 50px;
+  text-align: justify
 }
 .article_image{
   width: 400px;
 }
-.avant_actualitées, .avant_actualitées{
+.avant_actualitées{
   padding: 100px ;
+ background-image: url('/images/destruction.jpg');
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: 100%;
 }
 .il_parle_display{
-  display: flex;
-  background-color: rgba(255, 255, 255, 0.774);
+  background-color: rgba(255, 255, 255, 0.822);
   border-radius: 25px;
-  width: 500px;
-padding: 25px;
+  width: 400px;
+  height: 600px;
+padding: 30px;
   margin: 50px auto 50px auto;
+  box-shadow: 5px 5px 5px black;
 }
 .image_il_parle{
-  width: 100px;
+  width: 200px;
    border-radius: 25px;
+   margin: 0px 75px 25px 75px;
+   text-align: justify;
+   height: 200px;
 }
 .h3_marge{
   text-align: center;
@@ -93,7 +120,7 @@ padding: 25px;
 
   }
   .link:hover{
-   
+    background-color: #3ea770;
     color: black;
     transition: 0.4s;
   }
@@ -103,4 +130,19 @@ padding: 25px;
   }
   .texte_parle{
     padding-left: 50px;
+  }
+  .logo_share{
+margin: 20px 20px 0px 20px;
+  }
+  .fond_fond{
+    background-color: rgba(255, 255, 255, 0.801);
+    border-radius: 25px;
+    padding: 50px;
+  }
+  .texte_parle_de_nous{
+    margin: 50px 25px 0px 25px;
+  }
+  h2{
+    text-align: center;
+    font-size: 3em !important;
   }

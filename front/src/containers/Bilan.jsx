@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Bilan.scss';
 import { NavLink } from 'react-router-dom';
 
+
 class Bilan extends Component {
   constructor(props) {
     super(props);
@@ -10,8 +11,9 @@ class Bilan extends Component {
   render() {
     return (
       <div className='Bilan'>
-        <div className='entreprise'>
+      <div className='entourage'>
           <h1 className='title'>Votre bilan</h1>
+        <div className='entreprise'>
           <div className='fiche_salarier'>
             <p>Nom : EDF</p>
             <p>Secteur d'activité : Production énergétique</p>
@@ -20,11 +22,11 @@ class Bilan extends Component {
             <p>Bilan carbone : 50 tCO2eq par salarié</p>
           </div>
           <div>
-            <img src='' alt='image' />
+              <img className='imageBilan' src='./images/index.jpeg' alt='image'/>
           </div>
         </div>
         <div className='conseil_perso'>
-          <h2 className='title'>Conseils personnalisés</h2>
+          <h2 className='title_second'>Conseils personnalisés</h2>
 
           <div className='conseil_liste'>
             <NavLink to='/conseil' className='groopCard'>
@@ -35,7 +37,7 @@ class Bilan extends Component {
               </div>
             </NavLink>
             <NavLink to='/conseil' className='groopCard'>
-            <img className={"conseil"} src={"./images/purchase.jpg"} />
+            <img className={"conseil"} src={"./images/use.jpeg"} />
             <div>
               <div className='hoverImg'>
                 <p>Geste</p>
@@ -44,7 +46,7 @@ class Bilan extends Component {
             </div>
             </NavLink>
             <NavLink to='/conseil' className='groopCard'>
-            <img className={"conseil"} src={"./images/purchase.jpg"} />
+            <img className={"conseil"} src={"./images/reuse.jpeg"} />
             <div>
               <div className='hoverImg'>
                 <p>Geste</p>
@@ -57,9 +59,10 @@ class Bilan extends Component {
         <div className='valid'>
           <NavLink to="/conseil">
             <button className="button_submit" type="button">
-              Allez plus loin
+              Allez plus loin ...
                 </button>
           </NavLink>
+        </div>
         </div>
       </div>
     );
